@@ -1,0 +1,45 @@
+<html>
+<head>
+	<style>
+		#status{
+			width:600px;
+			height:250px;
+			background-color:rgb(227,231,237);
+		}
+		.countDown{
+			color:red;margin-top:100px;
+		}
+	</style>
+
+</head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<body>
+		<section class="intro1">
+			<div class="inner1">
+				<div class="content1">
+					<script type="text/javascript">
+					function countDown(secs,elem)
+					{
+						var element = document.getElementById(elem);
+						element.innerHTML = "<br><br><h2>Please wait for</h2>"+secs+"<h4>seconds</h4>";
+							if(secs < 1)
+							{
+								clearTimeout(timer);
+								
+								element.innerHTML= '<br><br><h4 style="color:black;font-family:arial;">" General Instructions "<br><br> i. Your given time limit is 900s i.e.15 mins<br><br> ii. Answer all the questions within the given time limit </h4>';
+								element.innerHTML += '<a class="btn2" href="quizpage.html">Start Test</a>'
+							}
+							secs--;
+							var timer = setTimeout('countDown('+secs+',"'+elem+'")',1000);
+					}
+				</script>
+				<div id="status"></div>
+				<script type="text/javascript">countDown(3,"status");</script>
+				
+			</div>
+			</div>
+		
+		</section>
+	
+	</body>
+</html>

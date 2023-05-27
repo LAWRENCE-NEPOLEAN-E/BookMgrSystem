@@ -1,0 +1,114 @@
+body{
+	margin:0 auto;
+	padding:0;
+	background:url(logo.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family:verdana;
+}
+h2{
+	font-size:15px;
+	
+}
+#test_status{
+	-webkit-box-shadow:0 10px 6px -6px #777;
+	-moz-box-shadow:0 10px 6px -6px #777;
+	 box-shadow:0 10px 6px -6px #777;
+}
+#test {
+	width:500px;
+	height:290px;
+	background:white;
+	margin-left:400px;
+	margin-top:10px;
+	position:center;
+	border-radius:30px;
+	font-size:20px;
+	background:url(sa.png);
+	background-size: cover;
+	
+	
+}
+#test:before, #test:after{
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 25px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width:300px;
+	background: #777;
+	-webkit-box-shadow:0 35px 20px #777;
+	-moz-box-shadow:0 35px 20px #777;
+	 box-shadow:0 35px 20px #777;
+	 -webkit-box-shadow: rotate(-8deg);
+	-moz-box-shadow: rotate(-8deg);
+	 -o-transform: rotate(-8deg);
+	 -ms-transform: rotate(-8deg);
+	 transform: rotate(-8deg);
+}
+#test:after{
+	-webkit-box-shadow: rotate(-8deg);
+	-moz-box-shadow: rotate(-8deg);
+	 -o-transform: rotate(-8deg);
+	 -ms-transform: rotate(-8deg);
+	 transform: rotate(-8deg);
+	 right: 10px;
+	 left:auto;
+}
+#test_status{
+	color:white;
+	width:165px;
+	height:30px;
+	background-color:red;
+	margin-left:400px;
+	margin-top:10px;
+	padding-left:15px;
+	padding-top:3px;
+	border-radius:30px;
+}
+input{
+	margin-left:30px;
+}
+button{
+	background: #d93434;
+	background-image: -webkit-linear-gradient(top, #d93434, #b8b82b);
+	background-image: -moz-linear-gradient(top, #d93434, #b8b82b);
+	background-image: -ms-linear-gradient(top, #d93434, #b8b82b);
+	background-image: -o-linear-gradient(top, #d93434, #b8b82b);
+	background-image: linear-gradient(to bottom, #d93434, #b8b82b);
+	-webkit-border-radius: 19;
+	-moz-border-radius: 19;
+	border-radius: 19px;
+	text-shadow: 0px 6px 6px #666666;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 6px 21px 11px 20px;
+	text-decoration: none;
+	cursor:pointer;
+	margin-left: 400px;
+	
+}
+button:hover{
+	background: #d90f0f;
+	background-image: -webkit-linear-gradient(top, #d90f0f, #38070f);
+	background-image: -moz-linear-gradient(top, #d90f0f, #38070f);
+	background-image: -ms-linear-gradient(top, #d90f0f, #38070f);
+	background-image: -o-linear-gradient(top, #d90f0f, #38070f);
+	background-image: linear-gradient(to bottom, #d90f0f, #38070f);
+	text-decoration: none;
+	cursor:pointer;
+}
+.timecounter{
+	color: black;
+	margin-left:85%;
+	margin-top:30px;
+
+	
+
+}
+button:hover{
+	outline:0;
+}

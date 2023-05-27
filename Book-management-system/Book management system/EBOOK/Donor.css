@@ -1,0 +1,299 @@
+body
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background: url(space-3.jpeg);
+	background-size: cover;
+}
+.signup
+{
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	width: 450px;
+	margin: auto;
+	margin-top: 50px;
+	height: 430px;
+	margin-left: 180px;
+	margin:0 auto;
+	margin-top:60px;
+	overflow: auto;
+	
+	box-shadow: 0 25px 35px rgba(0,0,0,.5);
+	border-radius: 10px;
+	
+}
+form
+{
+	width:390px;
+	text-align: center;
+	
+}
+.signup .InputBox 
+{
+		position:relative;
+}
+.signup .InputBox input
+{
+	
+	
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing:1 px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+	
+}
+.signup .InputBox label
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+.signup .InputBox input:focus ~ label,
+.signup .InputBox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #fff;
+	font-size: 10px;
+}
+.InputBox1 
+{
+	
+	
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing:1 px;
+	margin-bottom: 30px;
+	border: none;
+	
+	outline: none;
+	background: transparent;
+	
+}
+select
+{
+	background: transparent;
+	color:#fff;
+	padding: 10px;
+	width: 150px;
+	height: 40px;
+	font-size: 14px;
+	box-shadow; 0 5px 25px rgba(0,0,0,.5);
+	box-radius: 5px;
+	-webkit-appearance: button;
+}
+#textarea
+{
+	background: transparent;
+	border: white;
+	border:2px solid #fff;
+	border-radius:5px;
+	font-family: 'Play', sans-serif;
+	font-size: 15px;
+	font-weight: 200px;
+	transition: border 0.5s;
+	outline: 0;
+	color: #fff;
+	padding: 15px;
+
+}
+input[type=submit]
+{
+	border: none;
+	width: 150px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+}
+input[type=submit]:hover
+{
+	color: #fff;
+	background-color: black;
+	text-align: center;
+	
+}
+::placeholder
+{
+	color:aliceblue;
+	opacity: 0.8;/*firefox*/
+}
+input:required
+{
+	background-color: none;
+	outline:none;
+	
+}
+#msg 
+{
+	visibility: hidden;
+	min-width: 250px;
+	background-color:#20b2aa;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	right: 30%;
+	top: 30px;
+	font-size: 17px;
+	margin-right:30px;
+	border-radius: 15px;
+	
+}
+#msg.show
+{
+	visibility:visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s , fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein
+{
+	from{top:0; opacity:0;}
+	to{top: 30px; opacity:1;}
+}
+@keyframes fadein
+{
+	from{top:0; opacity:0;}
+	to{top: 30px; opacity:1;}
+}
+@-webkit-keyframes fadeout
+{
+	from{top: 30px; opacity:1;}
+	to{top: 0; opacity:0;}
+}
+@keyframes fadeout
+{
+	from{top: 30px; opacity:1;}
+	to{top: 0; opacity:0;}
+}
+#msg2
+{
+	visibility: hidden;
+	min-width: 250px;
+	background-color:#20b2aa;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	right: 30%;
+	top: 30px;
+	font-size: 17px;
+	margin-right:30px;
+	border-radius: 15px;
+	
+}
+#msg2.show2
+{
+	visibility:visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s , fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein
+{
+	from{top:0; opacity:0;}
+	to{top: 30px; opacity:1;}
+}
+@keyframes fadein
+{
+	from{top:0; opacity:0;}
+	to{top: 30px; opacity:1;}
+}
+@-webkit-keyframes fadeout
+{
+	from{top: 30px; opacity:1;}
+	to{top: 0; opacity:0;}
+}
+@keyframes fadeout
+{
+	from{top: 30px; opacity:1;}
+	to{top: 0; opacity:0;}
+}
+#msg1
+{
+	visibility: hidden;
+	min-width: 250px;
+	background-color:crimson;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	right: 30%;
+	top: 30px;
+	font-size: 17px;
+	margin-right:30px;
+	border-radius: 15px;
+	
+}
+#msg1.show1
+{
+	visibility:visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s , fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein
+{
+	from{top:0; opacity:0;}
+	to{top: 30px; opacity:1;}
+}
+@keyframes fadein
+{
+	from{top:0; opacity:0;}
+	to{top: 30px; opacity:1;}
+}
+@-webkit-keyframes fadeout
+{
+	from{top: 30px; opacity:1;}
+	to{top: 0; opacity:0;}
+}
+@keyframes fadeout
+{
+	from{top: 30px; opacity:1;}
+	to{top: 0; opacity:0;}
+}
+/*This is for Login page*/
+.signin
+{
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	width: 370px;
+	margin: auto;
+	margin-top: 50px;
+	height: 450px;
+	margin-left: 180px;
+	margin:0 auto;
+	margin-top:60px;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+

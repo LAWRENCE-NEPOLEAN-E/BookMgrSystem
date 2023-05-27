@@ -1,0 +1,223 @@
+/*CSS Document*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+.intro{
+	height:100%;
+	width:100%;
+	margin:auto;
+	background-size:100%;
+	display:table;
+	top:0;
+	text-align: center;
+	background-size:cover;
+}
+.intro .inner{
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+	max-width:none;
+}
+.content{
+		margin-top:100px;
+	width: 550px;
+	height: 450px;
+	margin: 20px 330px;
+	padding: 60px 50px 50px 50px;
+	border-radius: 60px;
+	text-align: center;
+	border: 2px solid #cbcbcb;
+	background:url(download.jpeg);
+	background-image:center;
+	box-shadow: 10px 15px 5px #cbcbcb;
+	font-size:15px;
+	
+}
+.content h1{
+	margin-top:100px;
+	text-align: center;
+	font-family: chiller;
+	color:white;
+	text-shadow:0px 0px 300px #000;
+	font-size:100&;
+}
+.content1{
+	margin-top:500px;
+	width: 950px;
+	height: 450px;
+	margin: 200px 400px;
+	
+}
+.inner1{
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+	max-width:none;
+	background:url(1.jpg);
+}
+.intro1{
+	height:100%;
+	width:100%;
+	margin:auto;
+	background-size:100%;
+	display:table;
+	top:0;
+	text-align: center;
+	background-size:cover;
+}
+.btn{
+	border-radius:80px;
+	font-family:'Oswald',sans-serif;
+	color:white;
+	font-size:135%;
+	padding:10px 20px;
+	border:2px solid #036A81;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.btn:hover{
+	color:#fff;
+	border:3px solid #fff;
+	background-color: #036A81;
+}
+.btn2{
+	border-radius:80px;
+	font-family:'Oswald',sans-serif;
+	color:black;
+	font-size:135%;
+	padding:10px 20px;
+	border:3px solid #036A81;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.btn2:hover{
+	color:#fff;
+	border:3px solid #fff;
+	background-color: #036A81;
+}
+body{
+	margin:0 auto;
+	padding:0;
+	background-color:gray;
+	font-family:verdana;
+}
+.grid1
+{
+	margin-top:150px;
+	color:#fff;
+    width: 650px;
+	height: 550px;
+	margin: 15px;
+	background-color: #fff;
+	padding: 20px 50px 50px 50px;
+	border-radius: 50px;
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 15px 15px #cbcbcb;
+	background:url(3.png);
+	
+}
+
+.grid1 h1
+{
+	margin-top:35px;
+	font-family: timesnewroman;
+	background-color: black;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0px;
+	border-radius: 20px;
+}
+
+#submit
+{
+	
+	background-color: #5e5a5a;
+	width: 150px;
+	font-size: 15px;
+	color: #fff;
+	border: 1px solid #1d3c6a;
+	border-radius: 70px;
+	margin: 5px 10px 5px 0px;
+	padding: 7px 7px;
+}
+#submit:focus
+{
+	outline: 0;
+}
+#submit:hover
+{
+	cursor: pointer;
+	background-color: lightgreen;
+}
+
+.textInput{
+	margin-top: 15px;
+	height: 10px;
+	border: 1px solid #036A81;
+	padding: 15px;
+	font-size: 20px;
+	font:Italic;
+	text-align: center;
+	width: 35%;
+	border:3px solid #1d3c6a;
+	border-radius: 25px;
+}
+
+.btn1 {
+	margin-top:40px;
+	border-radius:70px;
+	font-family:'Oswald',sans-serif;
+	color:#1d3c6a;
+	font-size:100%;
+	padding:10px 20px;
+	border:2px solid #036A81;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+form div{
+	margin-top:10px;
+	margin: 3px auto;
+}
+
+form{
+	height:50%;
+	width: 50%;
+	margin: 100px auto;
+}
+
+#wrapper h3{
+	width: 35%;
+	margin: 50px auto;
+	padding: 20px;
+	background: #EFFFE0;
+}
+.val_error{
+	color:#F9f3F4;
+}
+#name_error
+{
+	color:#F9f3F4;
+}
+	.btn1:focus
+{
+	outline: 0;
+}
+.btn1:hover
+{
+	cursor: pointer;
+	color:#fff;
+	background-color: #036A81;
+}
+.grid2{
+	
+	margin-top:25px;
+	height: 650px;
+	width:650px;
+	
+}
+
+
+
+	
+	
